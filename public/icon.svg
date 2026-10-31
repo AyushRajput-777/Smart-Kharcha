@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#064e3b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  
+  <!-- Base Squircle -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#grad)" filter="url(#shadow)" />
+  
+  <!-- Inner circular badge -->
+  <circle cx="256" cy="256" r="160" fill="#ffffff" fill-opacity="0.12" />
+  
+  <!-- Currency Rupee Symbol ₹ -->
+  <g fill="#ffffff">
+    <path d="M190 150 h132 a14 14 0 0 1 0 28 h-132 a14 14 0 0 1 0 -28 z" />
+    <path d="M190 196 h132 a14 14 0 0 1 0 28 h-86 c16 18 36 34 66 42 a14 14 0 0 1 -7 27 c-38 -10 -68 -32 -88 -60 l-17 0 a14 14 0 0 1 0 -28 h12 c1 -3 2 -6 3 -9 h-15 a14 14 0 0 1 0 -28 z" />
+    <path d="M225 285 l85 115 a14 14 0 0 1 -22 17 l-92 -124 a14 14 0 0 1 12 -23 z" />
+  </g>
+  
+  <!-- Small Star / Sparkle in corner -->
+  <polygon points="360,140 366,155 382,158 370,169 373,185 360,176 347,185 350,169 338,158 354,155" fill="#fef08a" />
+</svg>
